@@ -1,15 +1,15 @@
 import React from "react"
 import { createFileRoute } from '@tanstack/react-router'
-import TemplateComponent from '../../template-component'
+import M22Component from '../../m22-component'
 
-export const Route = createFileRoute('/template/')({
+export const Route = createFileRoute('/m22/')({
   component: RouteComponent,
 })
 
 function RouteComponent() {
   return (
     <div>
-      <TemplateComponent name="World!" />
+      <M22Component name="World!" />
     </div>
   )
 }

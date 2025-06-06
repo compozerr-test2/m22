@@ -1,9 +1,9 @@
 {
-    "name": "@repo/template",
+    "name": "@repo/m22",
     "version": "0.0.0",
     "private": true,
     "exports": {
-        "./template-component": "./src/template-component.tsx"
+        "./m22-component": "./src/m22-component.tsx"
     },
     "devDependencies": {
         "@repo/config": "*"
